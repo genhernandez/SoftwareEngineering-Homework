@@ -59,3 +59,8 @@ form label {
   font-weight: bold;
   color: maroon;
 }
+
+/*March 8 hw 2 - add style so selected header is highlighted */
+table#movies th.hilite {
+ background-color: yellow;
+}
