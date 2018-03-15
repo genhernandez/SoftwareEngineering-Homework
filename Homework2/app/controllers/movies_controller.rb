@@ -7,7 +7,6 @@ class MoviesController < ApplicationController
   end
 
   def index
-    @movies = Movie.all
     #March 8 HW2 1 & 2 - Sort movies by selected header
     # and determine which movies should be shown based on ratings
     @all_ratings = Movie.order(:rating).select(:rating).map(&:rating).uniq
@@ -15,12 +14,8 @@ class MoviesController < ApplicationController
     @checked_ratings.each do |rating|
       params[rating] = true
     end
-
-    if params[:sort]
       @movies = Movie.order(params[:sort])
-    else
-      @movies = Movie.where(:rating => @checked_ratings)
-    end
+      @movies = @movies.where(:rating => @checked_ratings)
   end
 
   def new

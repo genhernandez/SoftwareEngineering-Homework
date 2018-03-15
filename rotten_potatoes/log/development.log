@@ -1,0 +1,1334 @@
+Started GET "/" for 144.91.202.19 at 2018-02-08 18:10:45 +0000
+Cannot render console from 144.91.202.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.6ms)
+Completed 200 OK in 191ms (Views: 7.2ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-08 18:13:11 +0000
+Cannot render console from 144.91.202.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 155ms (Views: 5.3ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-08 18:13:21 +0000
+Cannot render console from 144.91.202.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (1.8ms)
+Completed 200 OK in 4ms (Views: 3.1ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-08 18:13:38 +0000
+Cannot render console from 144.91.202.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 4ms (Views: 3.2ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-08 18:15:06 +0000
+Cannot render console from 144.91.202.19! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 125ms (Views: 5.4ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-08 18:20:08 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 96ms (Views: 5.4ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-08 18:20:20 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 5ms (Views: 3.1ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-08 18:22:01 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 165ms (Views: 5.2ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-08 18:22:06 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 4ms (Views: 3.5ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-08 18:22:55 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 3ms (Views: 2.5ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-13 17:17:31 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 191ms (Views: 6.9ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-13 17:17:34 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 5ms (Views: 3.0ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-13 17:17:44 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.4.1@global/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 3ms (Views: 2.4ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-13 17:20:37 +0000
+Started GET "/movies" for 144.91.202.19 at 2018-02-13 17:20:37 +0000
+  
+ActionController::RoutingError (uninitialized constant MoviesController):
+  
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:78:in `controller_class'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:43:in `controller'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:29:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+rack (2.0.4) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.4) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 144.91.202.19 at 2018-02-13 17:21:42 +0000
+Started GET "/movies" for 144.91.202.19 at 2018-02-13 17:21:42 +0000
+Processing by MoviesController#index as HTML
+Completed 406 Not Acceptable in 124ms
+
+
+  
+ActionController::UnknownFormat (MoviesController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.4) lib/rack/etag.rb:25:in `call'
+rack (2.0.4) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.4) lib/rack/head.rb:12:in `call'
+rack (2.0.4) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.4) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 144.91.202.19 at 2018-02-13 17:22:40 +0000
+Started GET "/movies" for 144.91.202.19 at 2018-02-13 17:22:40 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 564ms (Views: 563.1ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-13 17:22:53 +0000
+Started GET "/movies" for 144.91.202.19 at 2018-02-13 17:22:53 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 31ms (Views: 29.9ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-13 17:23:51 +0000
+Started GET "/movies" for 144.91.202.19 at 2018-02-13 17:23:51 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (4.3ms)
+Completed 200 OK in 304ms (Views: 158.0ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-13 17:38:28 +0000
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.4) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/movies" for 144.91.202.19 at 2018-02-13 17:52:34 +0000
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.4) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (9.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (6.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateMovies (20180213172417)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE TABLE "movies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "rating" varchar, "description" text, "release_date" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180213172417"]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-02-13 18:05:41.444414"], ["updated_at", "2018-02-13 18:05:41.444414"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/movies" for 144.91.202.19 at 2018-02-13 18:06:04 +0000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "movies" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2018-02-13 18:25:01.143026"], ["updated_at", "2018-02-13 18:25:01.143026"]]
+  [1m[35m (7.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "movies"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "movies" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2018-02-13 18:26:36.241051"], ["updated_at", "2018-02-13 18:26:36.241051"]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/movies" for 144.91.202.19 at 2018-02-13 18:31:08 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 33ms (Views: 32.2ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "movies"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[31mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 1]]
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (4.8ms)[0m  [1m[31mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 2]]
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Star Wars"], ["rating", "PG"], ["release_date", "1977-04-25 00:00:00"], ["created_at", "2018-02-13 18:34:28.612437"], ["updated_at", "2018-02-13 18:34:28.612437"]]
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Requiem for a Dream"], ["rating", "R"], ["release_date", "2000-10-27 00:00:00"], ["created_at", "2018-02-13 18:43:24.060867"], ["updated_at", "2018-02-13 18:43:24.060867"]]
+  [1m[35m (7.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "movies"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Field of Dreams"], ["rating", "PG"], ["release_date", "0089-04-21 00:00:00"], ["created_at", "2018-02-13 18:44:17.833381"], ["updated_at", "2018-02-13 18:44:17.833381"]]
+  [1m[35m (7.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE (rating = 'PG') LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE (release_date < 'Jan 1, 2000' and rating = 'PG') LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."rating" = ? LIMIT ?[0m  [["rating", "PG"], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[33mUPDATE "movies" SET "description" = ?, "release_date" = ?, "updated_at" = ? WHERE "movies"."id" = ?[0m  [["description", "The best space western EVER"], ["release_date", "1977-05-25 00:00:00"], ["updated_at", "2018-02-13 18:48:35.927616"], ["id", 3]]
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[33mUPDATE "movies" SET "rating" = ?, "updated_at" = ? WHERE "movies"."id" = ?[0m  [["rating", "NC-17"], ["updated_at", "2018-02-13 18:48:51.398952"], ["id", 4]]
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 144.91.202.19 at 2018-02-15 17:40:44 +0000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 17:40:44 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (7.7ms)
+Completed 200 OK in 209ms (Views: 201.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-15 17:40:50 +0000
+Started GET "/" for 144.91.202.19 at 2018-02-15 17:40:50 +0000
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 17:40:50 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (5.3ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-15 17:40:52 +0000
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 17:40:52 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 17:47:37 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 17ms (Views: 15.4ms)
+
+
+  [1m[36mMovie Load (0.9ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 17:51:40 +0000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/myrottenpotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u
+                              ^):
+  
+app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/" for 144.91.202.19 at 2018-02-15 17:54:55 +0000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 17:54:55 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/myrottenpotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u
+                              ^):
+  
+app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/" for 144.91.202.19 at 2018-02-15 17:54:57 +0000
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 17:54:58 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/myrottenpotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u
+                              ^):
+  
+app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/" for 144.91.202.19 at 2018-02-15 17:58:33 +0000
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 17:58:33 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/myrottenpotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u
+                              ^):
+  
+app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/" for 144.91.202.19 at 2018-02-15 17:58:35 +0000
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 17:58:35 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/myrottenpotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u
+                              ^):
+  
+app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 17:59:34 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Inconsistent indentation: 5 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
+    14:       %td = movie.rating
+    15:       %td = movie.release_data
+    16:       %td = link_to "More about #{movie.title}" , movie_path(movie)
+    17:      %end
+  
+app/views/movies/index.html.haml:17
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 17:59:46 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/myrottenpotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u
+                              ^):
+  
+app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 17:59:56 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/myrottenpotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u
+                              ^):
+  
+app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:00:05 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/myrottenpotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u
+                              ^):
+  
+app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:00:10 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/myrottenpotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u
+                              ^):
+  
+app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:01:48 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/myrottenpotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u
+                              ^):
+  
+app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:02:58 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 6ms
+
+
+  
+SyntaxError (/home/ec2-user/environment/myrottenpotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u
+                              ^):
+  
+app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:03:52 +0000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/myrottenpotatoes/app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer.u
+                              ^):
+  
+app/views/movies/index.html.haml:17: syntax error, unexpected keyword_ensure, expecting keyword_end
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:04:33 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (11.1ms)
+Completed 200 OK in 200ms (Views: 198.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:05:41 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %h1 and nested within it.):
+    1: %h1 All Movies
+    2:  
+    3:   %table#movies
+    4:   %thead
+    5:     %tr
+    6:       %th Movie Title
+  
+app/views/movies/index.html.haml:3
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:06:38 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:06:43 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Inconsistent indentation: 6 spaces used for indentation, but the rest of the document was indented using 4 spaces.):
+    3: %table#movies
+    4: %thead
+    5:     %tr
+    6:       %th Movie Title
+    7:       %th Rating
+    8:       %th Release Date
+    9:       %th More Info
+  
+app/views/movies/index.html.haml:6
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:06:55 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (4.1ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:07:10 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:07:14 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:07:24 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:07:42 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.2ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Aladdin"], ["rating", "G"], ["release_date", "1992-11-25 00:00:00"], ["created_at", "2018-02-15 18:12:05.883968"], ["updated_at", "2018-02-15 18:12:05.883968"]]
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "When Harry Met Sally"], ["rating", "R"], ["release_date", "1989-07-21 00:00:00"], ["created_at", "2018-02-15 18:12:05.894321"], ["updated_at", "2018-02-15 18:12:05.894321"]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Help"], ["rating", "PG-13"], ["release_date", "2011-08-10 00:00:00"], ["created_at", "2018-02-15 18:12:05.904302"], ["updated_at", "2018-02-15 18:12:05.904302"]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Raiders of the Lost Ark"], ["rating", "PG"], ["release_date", "1981-06-12 00:00:00"], ["created_at", "2018-02-15 18:12:05.913007"], ["updated_at", "2018-02-15 18:12:05.913007"]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mMovie Load (0.9ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "movies"[0m
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:12:43 +0000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (12.4ms)
+Completed 200 OK in 222ms (Views: 213.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:12:51 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (7.6ms)
+Completed 200 OK in 46ms (Views: 44.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:13:50 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (9.6ms)
+Completed 200 OK in 31ms (Views: 29.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:15:29 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (4.9ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:15:50 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:17:12 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (12.9ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `release_data' for #<Movie:0x007f6925023df8>
+Did you mean?  release_date
+               release_date?
+               release_date=):
+    13:         -p movie
+    14:         %td= movie.title
+    15:         %td= movie.rating
+    16:         %td= movie.release_data
+    17:         %td= link_to "More about #{movie.title}" , movie_path(movie)
+    18:       
+  
+app/views/movies/index.html.haml:16:in `block in _app_views_movies_index_html_haml__1599611462234675032_70044792581400'
+app/views/movies/index.html.haml:11:in `_app_views_movies_index_html_haml__1599611462234675032_70044792581400'
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:17:21 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 28ms (Views: 26.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:18:07 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:19:23 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (5.5ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:19:30 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (6.7ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:20:54 +0000
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+RuntimeError (<ActionController::Parameters {"controller"=>"movies", "action"=>"index"} permitted: false>):
+  
+app/controllers/movies_controller.rb:3:in `index'
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:21:39 +0000
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" LIMIT ?[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 1.0ms)
+
+
+  
+RuntimeError (#<ActiveRecord::Relation [#<Movie id: 3, title: "Star Wars", rating: "PG", description: "The best space western EVER", release_date: "1977-05-25 00:00:00", created_at: "2018-02-13 18:34:28", updated_at: "2018-02-13 18:48:35">, #<Movie id: 4, title: "Requiem for a Dream", rating: "NC-17", description: nil, release_date: "2000-10-27 00:00:00", created_at: "2018-02-13 18:43:24", updated_at: "2018-02-13 18:48:51">, #<Movie id: 5, title: "Field of Dreams", rating: "PG", description: nil, release_date: "0089-04-21 00:00:00", created_at: "2018-02-13 18:44:17", updated_at: "2018-02-13 18:44:17">, #<Movie id: 6, title: "Aladdin", rating: "G", description: nil, release_date: "1992-11-25 00:00:00", created_at: "2018-02-15 18:12:05", updated_at: "2018-02-15 18:12:05">, #<Movie id: 7, title: "When Harry Met Sally", rating: "R", description: nil, release_date: "1989-07-21 00:00:00", created_at: "2018-02-15 18:12:05", updated_at: "2018-02-15 18:12:05">, #<Movie id: 8, title: "The Help", rating: "PG-13", description: nil, release_date: "2011-08-10 00:00:00", created_at: "2018-02-15 18:12:05", updated_at: "2018-02-15 18:12:05">, #<Movie id: 9, title: "Raiders of the Lost Ark", rating: "PG", description: nil, release_date: "1981-06-12 00:00:00", created_at: "2018-02-15 18:12:05", updated_at: "2018-02-15 18:12:05">]>):
+  
+app/controllers/movies_controller.rb:4:in `index'
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:23:07 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (13.6ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:24:08 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1)):
+    1: =debug
+    2: %h1 All Movies
+    3:  
+    4: %table#movies
+  
+app/views/movies/index.html.haml:1:in `_app_views_movies_index_html_haml__1599611462234675032_70044877329860'
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:24:28 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (13.2ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:26:10 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" LIMIT ?[0m  [["LIMIT", 11]]
+  Rendered movies/index.html.haml within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `title' for #<Movie::ActiveRecord_Relation:0x007f6930253140>):
+    1: =debug(@movies.title)
+    2: %h1 All Movies
+    3:  
+    4: %table#movies
+  
+app/views/movies/index.html.haml:1:in `_app_views_movies_index_html_haml__1599611462234675032_70044878016360'
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:26:24 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (11.8ms)
+Completed 200 OK in 40ms (Views: 38.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:26:42 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (7.1ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:26:49 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (4.8ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:26:55 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (5.6ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:27:10 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (6.8ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:27:37 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (11.8ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:29:18 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (4.3ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:30:09 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  Rendered movies/index.html.haml within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/myrottenpotatoes/app/views/movies/index.html.haml:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/movies/index.html.haml:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:30:24 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (5.1ms)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:30:48 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:30:53 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (5.1ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:31:04 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (6.9ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-15 18:31:43 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (14.5ms)
+Completed 200 OK in 38ms (Views: 36.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-20 17:12:15 +0000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/movies" for 144.91.202.19 at 2018-02-20 17:12:15 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (18.9ms)
+Completed 200 OK in 224ms (Views: 215.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 144.91.202.19 at 2018-02-20 17:12:18 +0000
+Started GET "/movies" for 144.91.202.19 at 2018-02-20 17:12:18 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (12.9ms)
+Completed 200 OK in 55ms (Views: 54.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-20 17:12:29 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (4.6ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-20 17:15:06 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (11.2ms)
+Completed 200 OK in 38ms (Views: 36.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/movies/3" for 144.91.202.19 at 2018-02-20 17:15:09 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 21ms (Views: 17.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-20 17:15:12 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/4" for 144.91.202.19 at 2018-02-20 17:15:18 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 35ms (Views: 29.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-20 17:15:20 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (4.3ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-20 17:19:47 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (4.4ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-20 17:21:18 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (10.9ms)
+Completed 200 OK in 35ms (Views: 33.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-20 17:22:24 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (11.1ms)
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/movies/new" for 144.91.202.19 at 2018-02-20 17:22:26 +0000
+Processing by MoviesController#new as HTML
+  Rendering movies/new.html.haml within layouts/application
+  Rendered movies/new.html.haml within layouts/application (13.6ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-20 17:23:39 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (10.8ms)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/movies/new" for 144.91.202.19 at 2018-02-20 17:23:41 +0000
+Processing by MoviesController#new as HTML
+  Rendering movies/new.html.haml within layouts/application
+  Rendered movies/new.html.haml within layouts/application (3.4ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-20 17:25:01 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (4.6ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/new" for 144.91.202.19 at 2018-02-20 17:25:03 +0000
+Processing by MoviesController#new as HTML
+  Rendering movies/new.html.haml within layouts/application
+  Rendered movies/new.html.haml within layouts/application (3.6ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-20 17:27:11 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (11.6ms)
+Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/movies/3" for 144.91.202.19 at 2018-02-20 17:27:15 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (2.7ms)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-20 17:27:17 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (5.2ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/5" for 144.91.202.19 at 2018-02-20 17:28:01 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies/5/edit" for 144.91.202.19 at 2018-02-20 17:28:02 +0000
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering movies/edit.html.haml within layouts/application
+  Rendered movies/edit.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.1ms)
+
+
+Started PUT "/movies/5" for 144.91.202.19 at 2018-02-20 17:28:05 +0000
+Processing by MoviesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZTkNiumbqh1yX2Ynr4eqBTsBBw0LfRMb3Ty3rTPX4lTceil0DdoyudkTb65bV3KhQsybUAFR+c+7DoxgeoHz/g==", "movie"=>{"title"=>"Field of Dreams", "rating"=>"PG", "release_date(1i)"=>"89", "release_date(2i)"=>"4", "release_date(3i)"=>"21"}, "commit"=>"Save Changes", "id"=>"5"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/movies_controller.rb:27:in `update'
+Started GET "/movies/5" for 144.91.202.19 at 2018-02-20 17:28:14 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/5/edit" for 144.91.202.19 at 2018-02-20 17:28:19 +0000
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering movies/edit.html.haml within layouts/application
+  Rendered movies/edit.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies/5" for 144.91.202.19 at 2018-02-20 17:32:28 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 30ms (Views: 20.0ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/movies/5" for 144.91.202.19 at 2018-02-20 17:32:30 +0000
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zEKREAeHtKIGjwffEOA+ZjG1aTDsYIJPYmCqVCpYwmQleo23kAybg9y2zBaZ30f9IQBF1cG2al6kya5PRYlT9g==", "id"=>"5"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[31mDELETE FROM "movies" WHERE "movies"."id" = ?[0m  [["id", 5]]
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://49bd499b9b674a5b9001cc6531f02a10.vfs.cloud9.us-east-2.amazonaws.com/movies
+Completed 302 Found in 10ms (ActiveRecord: 6.3ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-20 17:32:30 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (4.2ms)
+Completed 200 OK in 21ms (Views: 19.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/3" for 144.91.202.19 at 2018-02-20 17:32:37 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies/3/edit" for 144.91.202.19 at 2018-02-20 17:32:39 +0000
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/edit.html.haml within layouts/application
+  Rendered movies/edit.html.haml within layouts/application (3.7ms)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.1ms)
+
+
+Started PUT "/movies/3" for 144.91.202.19 at 2018-02-20 17:32:40 +0000
+Processing by MoviesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KhpOU1q29yzO0CTYIrgjI5vw1ETZCBpqOGq9yrixq6S/3KZwyDz6nS5JK+0Et7OnTYdeZ6rPUXsckj31sIEjsQ==", "movie"=>{"title"=>"Star Wars", "rating"=>"PG", "release_date(1i)"=>"1977", "release_date(2i)"=>"5", "release_date(3i)"=>"25"}, "commit"=>"Save Changes", "id"=>"3"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/movies_controller.rb:29:in `update'
+Started GET "/movies/3" for 144.91.202.19 at 2018-02-20 17:33:45 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies" for 144.91.202.19 at 2018-02-20 17:33:47 +0000
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (4.7ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/3" for 144.91.202.19 at 2018-02-20 17:46:33 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (3.6ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/movies/3/edit" for 144.91.202.19 at 2018-02-20 17:46:39 +0000
+Processing by MoviesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/edit.html.haml within layouts/application
+  Rendered movies/edit.html.haml within layouts/application (3.6ms)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.1ms)
+
+
+Started PUT "/movies/3" for 144.91.202.19 at 2018-02-20 17:46:42 +0000
+Processing by MoviesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wrcpDkXT7hO2k/qCjS8r/BPtMg14O3DSR9hUSPlxK0FXccEt11njolYK9berILt4xZq4Lgv8O8NjINR38UGjVA==", "movie"=>{"title"=>"Star Wars", "rating"=>"PG", "release_date(1i)"=>"1977", "release_date(2i)"=>"5", "release_date(3i)"=>"25"}, "commit"=>"Save Changes", "id"=>"3"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/movies_controller.rb:29:in `update'
+Started PUT "/movies/3" for 144.91.202.19 at 2018-02-20 17:47:44 +0000
+Processing by MoviesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VWFJPh3fFlE5tBlIzWmbWZn4OVKYV3aqERECl3FuMpq8WVWZilQ5cOON0oFEVuLCiU0Vt7WBnrvXuAaMHr+jCA==", "movie"=>{"title"=>"Star Wars", "rating"=>"PG", "release_date(1i)"=>"1977", "release_date(2i)"=>"5", "release_date(3i)"=>"25"}, "commit"=>"Save Changes", "id"=>"3"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://49bd499b9b674a5b9001cc6531f02a10.vfs.cloud9.us-east-2.amazonaws.com/movies/3
+Completed 302 Found in 18ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/movies/3" for 144.91.202.19 at 2018-02-20 17:47:44 +0000
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.1ms)
+
+
