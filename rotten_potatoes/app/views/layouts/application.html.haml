@@ -1,5 +1,5 @@
-!!! 5
 %html
+
   %head
     %title RottenPotatoes!
     = stylesheet_link_tag 'application'
@@ -12,4 +12,9 @@
     - elsif flash[:warning]
       #warning.message= flash[:warning]
     #main
-      = yield
+      - if current_user
+        %p.welcome  Welcome, #{current_user.name}!
+        = link_to "Log Out", signout_path, id: "sign_out"
+      - else
+        = link_to "Log in with Google", "auth/google_oauth2"
+    = yield
