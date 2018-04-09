@@ -5,14 +5,24 @@
         Rating:
         = @movie.rating
     %li
-        Released on: 
+        Released on:
         = @movie.release_date.strftime("%B %d, %Y")
 
 %h3 Description:
 
 %p#description= @movie.description
 
+%h3 Reviews :
+
+- if @movie.reviews.any?
+    %ul
+    - @movie.reviews.each do |r|
+        %li #{r.potatoes}
+- else
+    %p No reviews yet!
+
 -# modify last 2 lines of app/views/movies/show.html.haml to:
 = link_to 'Edit info', edit_movie_path(@movie)
 = link_to 'Delete', movie_path(@movie), :method => :delete
 = link_to 'Back to movie list', movies_path
+= link_to 'Add Review', new_movie_review_path(@movie)

@@ -1566,3 +1566,1202 @@ puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
 puma (3.11.2) lib/puma/server.rb:438:in `process_client'
 puma (3.11.2) lib/puma/server.rb:302:in `block in run'
 puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-04-08 15:58:35 -0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/movies" for 127.0.0.1 at 2018-04-08 15:58:35 -0700
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (25.1ms)
+Completed 200 OK in 1743ms (Views: 1692.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-04-08 16:18:01 -0700
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 36ms
+
+
+  
+NoMethodError (undefined method `many' for Movie (call 'Movie.connection' to establish a connection):Class
+Did you mean?  many?):
+  
+app/models/movie.rb:2:in `<class:Movie>'
+app/models/movie.rb:1:in `<top (required)>'
+app/controllers/movies_controller.rb:3:in `index'
+Started GET "/movies" for 127.0.0.1 at 2018-04-08 16:20:05 -0700
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (65.0ms)
+Completed 200 OK in 1256ms (Views: 1162.0ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-04-08 16:20:48 -0700
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (17.4ms)
+Completed 200 OK in 440ms (Views: 339.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-08 16:20:51 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (1.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 417ms (Views: 248.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/movies/3/reviews/new" for 127.0.0.1 at 2018-04-08 16:20:57 -0700
+  
+ActionController::RoutingError (undefined method `before_filter' for ReviewsController:Class
+Did you mean?  before_action):
+  
+app/controllers/reviews_controller.rb:2:in `<class:ReviewsController>'
+app/controllers/reviews_controller.rb:1:in `<top (required)>'
+Started GET "/movies/3/reviews/new" for 127.0.0.1 at 2018-04-08 16:21:37 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"3"}
+Completed 500 Internal Server Error in 277ms
+
+
+  
+NameError (undefined local variable or method `login_path' for #<ReviewsController:0x000000000dc587f0>):
+  
+app/controllers/reviews_controller.rb:7:in `has_moviegoer_and_movie'
+Started GET "/movies/3/reviews/new" for 127.0.0.1 at 2018-04-08 16:22:34 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"3"}
+Redirected to http://localhost:3000/
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Filter chain halted as :has_moviegoer_and_movie rendered or redirected
+Completed 302 Found in 32ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 16:22:34 -0700
+Started GET "/movies" for 127.0.0.1 at 2018-04-08 16:22:34 -0700
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (15.1ms)
+Completed 200 OK in 409ms (Views: 327.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/movies/9" for 127.0.0.1 at 2018-04-08 16:22:39 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (10.0ms)
+Completed 200 OK in 371ms (Views: 270.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/movies/9/reviews/new" for 127.0.0.1 at 2018-04-08 16:22:41 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"9"}
+Redirected to http://localhost:3000/
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+Filter chain halted as :has_moviegoer_and_movie rendered or redirected
+Completed 302 Found in 32ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 16:22:41 -0700
+Started GET "/movies" for 127.0.0.1 at 2018-04-08 16:22:41 -0700
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (9.1ms)
+Completed 200 OK in 600ms (Views: 467.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2018-04-08 16:22:46 -0700
+(google_oauth2) Request phase initiated.
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2018-04-08 16:22:47 -0700
+(google_oauth2) Request phase initiated.
+Started GET "/auth/google_oauth2/callback?state=9a5cdbdb1e598bf6dee3e9e4670c80e8c883d19116edd387&code=4/AAAqqlNvwzJYKfthmLO1dQe1h_zg71SpznD0GWFmj77rG9CKNY8xBVeSqeFbuZIKkJ8yY1-t_clhFnX0Z9ysLT8" for 127.0.0.1 at 2018-04-08 16:22:52 -0700
+(google_oauth2) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"9a5cdbdb1e598bf6dee3e9e4670c80e8c883d19116edd387", "code"=>"4/AAAqqlNvwzJYKfthmLO1dQe1h_zg71SpznD0GWFmj77rG9CKNY8xBVeSqeFbuZIKkJ8yY1-t_clhFnX0Z9ysLT8", "provider"=>"google_oauth2"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."provider" = ? AND "users"."uid" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["provider", "google_oauth2"], ["uid", "115101668900867421896"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (25.1ms)[0m  [1m[33mUPDATE "users" SET "oauth_token" = ?, "oauth_expires_at" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["oauth_token", "ya29.GlyXBSmf8ZEcdScI-UzcEni9szuXH3ju2lsFEWiu6fASeWR_onCwhVaDhICkHUvk4ivmBFyZn0ugFapfU5Pw0eeXBi62Q74lBpXvglWl8sSZ505Q_WCXuG4JB-S-7Q"], ["oauth_expires_at", "2018-04-09 00:22:52"], ["updated_at", "2018-04-08 23:22:55.382117"], ["id", 1]]
+  [1m[35m (82.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 224ms (ActiveRecord: 111.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 16:22:55 -0700
+Started GET "/movies" for 127.0.0.1 at 2018-04-08 16:22:55 -0700
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (1.2ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (23.2ms)
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 457ms (Views: 371.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-08 16:23:03 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (25.4ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 464ms (Views: 316.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/3/reviews/new" for 127.0.0.1 at 2018-04-08 16:23:06 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"3"}
+Redirected to http://localhost:3000/
+  [1m[36mMovie Load (3.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Filter chain halted as :has_moviegoer_and_movie rendered or redirected
+Completed 302 Found in 72ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-08 16:23:07 -0700
+Started GET "/movies" for 127.0.0.1 at 2018-04-08 16:23:07 -0700
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (4.5ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (33.1ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 452ms (Views: 374.7ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-08 16:24:37 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (9.4ms)
+Completed 500 Internal Server Error in 635ms (ActiveRecord: 2.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant ApplicationController::Movieuser):
+    12:     - elsif flash[:warning]
+    13:       #warning.message= flash[:warning]
+    14:     #main
+    15:       - if current_user
+    16:         %p.welcome  Welcome, #{current_user.name}!
+    17:         = link_to "Log Out", signout_path, id: "sign_out"
+    18:       - else
+  
+app/controllers/application_controller.rb:6:in `current_user'
+app/views/layouts/application.html.haml:15:in `_app_views_layouts_application_html_haml___1854420636_71979360'
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateReviews (20180408232812)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "reviews" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "potatoes" integer, "comments" varchar, "movie_id" integer, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_6ad75a4852"
+FOREIGN KEY ("movie_id")
+  REFERENCES "movies" ("id")
+, CONSTRAINT "fk_rails_74a66bd6c5"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE  INDEX "index_reviews_on_movie_id" ON "reviews" ("movie_id")[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_reviews_on_movie_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_reviews_on_movie_id' AND type='index'
+[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE  INDEX "index_reviews_on_user_id" ON "reviews" ("user_id")[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180408232812"]]
+  [1m[35m (72.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.0ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_reviews_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_reviews_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_reviews_on_movie_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_reviews_on_movie_id' AND type='index'
+[0m
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-08 16:30:06 -0700
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (2.1ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (6.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 490ms (Views: 352.7ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/movies/3/reviews/new" for 127.0.0.1 at 2018-04-08 16:30:10 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"3"}
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 528ms (Views: 277.7ms | ActiveRecord: 7.0ms)
+
+
+Started POST "/movies/3/reviews" for 127.0.0.1 at 2018-04-08 16:30:14 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"klxqZ73KfmsmALitzigerFGdbfLOcWRDi5zjXgP2w8qfow1qCsjf3bk/Tg2e9exW4E6tlnHTGESiJvKtygMNyQ==", "review"=>{"potatoes"=>"1"}, "commit"=>"Create Review", "movie_id"=>"3"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (1.4ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 1.7ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/reviews_controller.rb:23:in `create'
+Started POST "/movies/3/reviews" for 127.0.0.1 at 2018-04-08 17:55:08 -0700
+  
+SyntaxError (C:/Users/gecoo/Desktop/SoftwareEngineering-Homework/rotten_potatoes/app/controllers/reviews_controller.rb:29: syntax error, unexpected tSYMBEG, expecting '('
+e(:review).permit(:potatoes. :comments, :description, :movie
+                              ^):
+  
+app/controllers/reviews_controller.rb:29: syntax error, unexpected tSYMBEG, expecting '('
+Started POST "/movies/3/reviews" for 127.0.0.1 at 2018-04-08 18:02:19 -0700
+  
+SyntaxError (C:/Users/gecoo/Desktop/SoftwareEngineering-Homework/rotten_potatoes/app/controllers/reviews_controller.rb:32: syntax error, unexpected tSYMBEG, expecting '('
+e(:review).permit(:potatoes. :comments, :description, :movie
+                              ^):
+  
+app/controllers/reviews_controller.rb:32: syntax error, unexpected tSYMBEG, expecting '('
+Started POST "/movies/3/reviews" for 127.0.0.1 at 2018-04-08 18:06:27 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oAKg+RX6q49Y9qy6ZJRMew5W8qSpEAhqM9K2JniNVIfRkMluXoL1BX8QnuV6xD1wfem0d9QvR0Aens3JzwsmXA==", "review"=>{"potatoes"=>"1"}, "commit"=>"Create Review", "movie_id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/movies/3
+Completed 302 Found in 337ms (ActiveRecord: 16.8ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-08 18:06:27 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (7.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 461ms (Views: 368.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies/3/reviews/new" for 127.0.0.1 at 2018-04-08 18:06:32 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"3"}
+  [1m[36mUser Load (9.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 417ms (Views: 268.8ms | ActiveRecord: 10.5ms)
+
+
+Started POST "/movies/3/reviews" for 127.0.0.1 at 2018-04-08 18:06:33 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VYFXCrrLk0eMN3ZNBrojUmy2R+iQAo/kaHSpkrAW5cNYfjAHDcky8RMIgO1WZ9Go3WWHjC+g8+NBzrhheeMrwA==", "review"=>{"potatoes"=>"1"}, "commit"=>"Create Review", "movie_id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/movies/3
+Completed 302 Found in 77ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-08 18:06:33 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (2.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (13.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 751ms (Views: 635.6ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-04-08 18:06:38 -0700
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (16.1ms)
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 398ms (Views: 275.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-08 18:06:42 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (6.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 398ms (Views: 255.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/3/reviews/new" for 127.0.0.1 at 2018-04-08 18:06:45 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 470ms (Views: 294.7ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/movies/3/reviews" for 127.0.0.1 at 2018-04-08 18:06:46 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SszOpylxLneFAr7r967tNtBURVkj9CnLtHE7X6iyRhFHM6mqnnOPwRo9SEuncx/MYYeFPZxWVcydyyqsYUeIEg==", "review"=>{"potatoes"=>"1"}, "commit"=>"Create Review", "movie_id"=>"3"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/movies/3
+Completed 302 Found in 551ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-08 18:06:47 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (10.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 581ms (Views: 462.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/movies/3/reviews/new" for 127.0.0.1 at 2018-04-09 09:00:06 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"3"}
+  [1m[36mUser Load (17.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (191.1ms)
+Completed 200 OK in 1529ms (Views: 1022.7ms | ActiveRecord: 17.0ms)
+
+
+Started POST "/movies/3/reviews" for 127.0.0.1 at 2018-04-09 09:00:10 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PhBaary/A0+xj3YL5mK8ivNFfuTn6kjZ9L8euQRDLF8z7z1nC72i+S6wgKu2v05wQpa+gFhINN7dBQ9KzbbiXA==", "review"=>{"potatoes"=>"1"}, "commit"=>"Create Review", "movie_id"=>"3"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (11.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/movies/3
+Completed 302 Found in 468ms (ActiveRecord: 13.5ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-09 09:00:11 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (22.1ms)
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 984ms (Views: 727.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-04-09 09:16:17 -0700
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (3.0ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (69.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 573ms (Views: 488.8ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-04-09 09:16:21 -0700
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (13.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 484ms (Views: 364.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-09 09:16:42 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 279ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (Inconsistent indentation: 6 spaces used for indentation, but the rest of the document was indented using 4 spaces.):
+    16: 
+    17: - if @movie.reviews.any?
+    18:     %ul
+    19:       - @movie.reviews.each do |r|
+    20:         %li #{r.potatoes}
+    21: - else
+    22:   %p No reviews yet!
+  
+app/views/movies/show.html.haml:19
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-09 09:17:14 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 225ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (Inconsistent indentation: 2 spaces used for indentation, but the rest of the document was indented using 4 spaces.):
+    19:     - @movie.reviews.each do |r|
+    20:         %li #{r.potatoes}
+    21: - else
+    22:   %p No reviews yet!
+    23: 
+    24: -# modify last 2 lines of app/views/movies/show.html.haml to:
+    25: = link_to 'Edit info', edit_movie_path(@movie)
+  
+app/views/movies/show.html.haml:22
+  [1m[36mReview Load (19.1ms)[0m  [1m[34mSELECT  "reviews".* FROM "reviews" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-09 09:18:13 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (1.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  [1m[36mReview Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."movie_id" = ? LIMIT ?[0m  [["movie_id", 3], ["LIMIT", 1]]
+  Rendered movies/show.html.haml within layouts/application (56.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 467ms (Views: 399.2ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/movies/3/reviews/new" for 127.0.0.1 at 2018-04-09 09:18:20 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"3"}
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (7.0ms)
+Completed 200 OK in 426ms (Views: 293.6ms | ActiveRecord: 3.5ms)
+
+
+Started POST "/movies/3/reviews" for 127.0.0.1 at 2018-04-09 09:18:25 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yX2vEWSxFM4EIuoIAWBgL1GDNw/zN7h0qBfBVhQlj23Egsgc07O1eJsdHKhRvZLV4FD3a0yVxHOBrdCl3dBBbg==", "review"=>{"potatoes"=>"4"}, "commit"=>"Create Review", "movie_id"=>"3"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (8.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/movies/3
+Completed 302 Found in 84ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-09 09:18:25 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (3.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  [1m[36mReview Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."movie_id" = ? LIMIT ?[0m  [["movie_id", 3], ["LIMIT", 1]]
+  Rendered movies/show.html.haml within layouts/application (10.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 441ms (Views: 322.3ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/movies/3/reviews/new" for 127.0.0.1 at 2018-04-09 09:20:17 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"3"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (3.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (11.0ms)
+Completed 200 OK in 595ms (Views: 350.4ms | ActiveRecord: 14.0ms)
+
+
+Started POST "/movies/3/reviews" for 127.0.0.1 at 2018-04-09 09:20:21 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5+UA9N00xoBMxORg87ssyNkeMccwf1Ecl0SiAtVPGl/qGmf5ajZnNtP7EsCjZt4yaM3xo4/dLRu+/rPxHLrUXA==", "review"=>{"potatoes"=>"5"}, "commit"=>"Create Review", "movie_id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (5.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/movies/3
+Completed 302 Found in 173ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-09 09:20:21 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  [1m[36mReview Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."movie_id" = ? LIMIT ?[0m  [["movie_id", 3], ["LIMIT", 1]]
+  Rendered movies/show.html.haml within layouts/application (17.0ms)
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 524ms (Views: 417.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-09 09:20:26 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  [1m[36mReview Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."movie_id" = ? LIMIT ?[0m  [["movie_id", 3], ["LIMIT", 1]]
+  Rendered movies/show.html.haml within layouts/application (12.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 469ms (Views: 342.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-09 09:21:23 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  [1m[36mReview Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."movie_id" = ? LIMIT ?[0m  [["movie_id", 3], ["LIMIT", 1]]
+  Rendered movies/show.html.haml within layouts/application (50.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 565ms (Views: 398.3ms | ActiveRecord: 18.0ms)
+
+
+Started GET "/movies/3/reviews/new" for 127.0.0.1 at 2018-04-09 09:21:27 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"3"}
+  [1m[36mUser Load (5.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (9.0ms)
+Completed 200 OK in 476ms (Views: 281.2ms | ActiveRecord: 7.0ms)
+
+
+Started POST "/movies/3/reviews" for 127.0.0.1 at 2018-04-09 09:21:31 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4AfaRNFggGlgd/sKnn65M2k381O6/0mQPJk+b0X2/g7t+L1JZmIh3/9IDarOo0vJ2OQzNwVdNZcVIy+cjAMwDQ==", "review"=>{"potatoes"=>"4"}, "commit"=>"Create Review", "movie_id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (3.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 4.0ms)
+
+
+  
+NoMethodError (undefined method `premit' for #<ActionController::Parameters:0x000000000f6256b0>
+Did you mean?  permit):
+  
+app/controllers/reviews_controller.rb:32:in `review_params'
+app/controllers/reviews_controller.rb:26:in `create'
+Started POST "/movies/3/reviews" for 127.0.0.1 at 2018-04-09 09:21:49 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4AfaRNFggGlgd/sKnn65M2k381O6/0mQPJk+b0X2/g7t+L1JZmIh3/9IDarOo0vJ2OQzNwVdNZcVIy+cjAMwDQ==", "review"=>{"potatoes"=>"4"}, "commit"=>"Create Review", "movie_id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Unpermitted parameters: :utf8, :authenticity_token, :commit, :movie_id
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/movies/3
+Completed 302 Found in 289ms (ActiveRecord: 21.5ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-09 09:21:50 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  [1m[36mReview Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."movie_id" = ? LIMIT ?[0m  [["movie_id", 3], ["LIMIT", 1]]
+  Rendered movies/show.html.haml within layouts/application (14.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 429ms (Views: 324.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/movies/3/reviews/new" for 127.0.0.1 at 2018-04-09 09:21:53 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"3"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (16.0ms)
+Completed 200 OK in 663ms (Views: 498.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/movies/3/reviews" for 127.0.0.1 at 2018-04-09 09:21:57 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WuZTBHtQ74CTn83ywZkC+8n+jLldeI7Ax8/DXcwiehlXGTQJzFJONgygO1KRRPABeC1M3eLa8sfuddKuBde0Gg==", "review"=>{"potatoes"=>"4"}, "commit"=>"Create Review", "movie_id"=>"3"}
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (2.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Unpermitted parameters: :utf8, :authenticity_token, :commit, :movie_id
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/movies/3
+Completed 302 Found in 129ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/movies/3" for 127.0.0.1 at 2018-04-09 09:21:57 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  [1m[36mReview Exists (2.0ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."movie_id" = ? LIMIT ?[0m  [["movie_id", 3], ["LIMIT", 1]]
+  Rendered movies/show.html.haml within layouts/application (25.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 511ms (Views: 402.9ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2018-04-09 09:28:13 -0700
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 27ms
+
+
+  
+NoMethodError (undefined method `all_ratings' for Movie (call 'Movie.connection' to establish a connection):Class):
+  
+app/controllers/movies_controller.rb:7:in `index'
+Started GET "/movies" for 127.0.0.1 at 2018-04-09 09:30:31 -0700
+Processing by MoviesController#index as HTML
+Completed 500 Internal Server Error in 52ms
+
+
+  
+NoMethodError (undefined method `all_ratings' for Movie (call 'Movie.connection' to establish a connection):Class):
+  
+app/controllers/movies_controller.rb:7:in `index'
+Started GET "/movies" for 127.0.0.1 at 2018-04-09 09:39:49 -0700
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (47.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 586ms (Views: 516.9ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/movies/4" for 127.0.0.1 at 2018-04-09 09:39:57 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  [1m[36mReview Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."movie_id" = ? LIMIT ?[0m  [["movie_id", 4], ["LIMIT", 1]]
+  Rendered movies/show.html.haml within layouts/application (44.1ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 557ms (Views: 333.4ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/movies/4/reviews/new" for 127.0.0.1 at 2018-04-09 09:39:59 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"4"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (18.0ms)
+Completed 200 OK in 760ms (Views: 482.7ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/movies/4/reviews" for 127.0.0.1 at 2018-04-09 09:40:03 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CNhD9YUR7UB/45I/vId7r35sO43rlorZwoSWmCVVWNWtLAzzkNZ0GLZMQl9d8nzEasRjOzUox04dGICzGl7mnA==", "review"=>{"potatoes"=>"5"}, "commit"=>"Create Review", "movie_id"=>"4"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (1.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/movies/4
+Completed 302 Found in 116ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/movies/4" for 127.0.0.1 at 2018-04-09 09:40:04 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  [1m[36mReview Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."movie_id" = ? LIMIT ?[0m  [["movie_id", 4], ["LIMIT", 1]]
+  Rendered movies/show.html.haml within layouts/application (29.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 549ms (Views: 425.1ms | ActiveRecord: 2.5ms)
+
+
+  [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT  "reviews".* FROM "reviews" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mMovie Load (2.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Started GET "/movies" for 127.0.0.1 at 2018-04-09 09:54:00 -0700
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (69.7ms)
+  [1m[36mUser Load (8.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 619ms (Views: 550.8ms | ActiveRecord: 22.5ms)
+
+
+Started GET "/movies/7" for 127.0.0.1 at 2018-04-09 09:54:07 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  [1m[36mReview Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."movie_id" = ? LIMIT ?[0m  [["movie_id", 7], ["LIMIT", 1]]
+  Rendered movies/show.html.haml within layouts/application (42.6ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 439ms (Views: 311.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/movies/7/reviews/new" for 127.0.0.1 at 2018-04-09 09:54:12 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"7"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (4.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 626ms (Views: 359.0ms | ActiveRecord: 7.0ms)
+
+
+Started POST "/movies/7/reviews" for 127.0.0.1 at 2018-04-09 09:54:17 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1Hc2j294Fo5GfWWmfZIiGurDiF19eBXt8vjCWTOM7BaBG5SWqP9x2tcuw2bGaFrnn/lwrpeDeuV7XTBaxveRiA==", "review"=>{"potatoes"=>"3"}, "commit"=>"Create Review", "movie_id"=>"7"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/movies/7
+Completed 302 Found in 151ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/movies/7" for 127.0.0.1 at 2018-04-09 09:54:17 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  [1m[36mReview Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."movie_id" = ? LIMIT ?[0m  [["movie_id", 7], ["LIMIT", 1]]
+  Rendered movies/show.html.haml within layouts/application (11.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 422ms (Views: 303.7ms | ActiveRecord: 1.0ms)
+
+
+  [1m[36mReview Load (0.0ms)[0m  [1m[34mSELECT  "reviews".* FROM "reviews" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/movies/7/reviews/new" for 127.0.0.1 at 2018-04-09 10:05:42 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"7"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (2.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (16.5ms)
+Completed 200 OK in 941ms (Views: 590.1ms | ActiveRecord: 10.0ms)
+
+
+Started POST "/movies/7/reviews" for 127.0.0.1 at 2018-04-09 10:05:45 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eljtvatOeEvTlPPbEbu9EsK7SGsSa7iAV82MqFSxodMvNE+kbMkfH0LHVRuqQcXvt4GwmPiQ14jeaH6rocrcTQ==", "review"=>{"potatoes"=>"1"}, "commit"=>"Create Review", "movie_id"=>"7"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (5.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/movies/7
+Completed 302 Found in 301ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/movies/7" for 127.0.0.1 at 2018-04-09 10:05:46 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mMovie Load (2.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  [1m[36mReview Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "reviews" WHERE "reviews"."movie_id" = ? LIMIT ?[0m  [["movie_id", 7], ["LIMIT", 1]]
+  Rendered movies/show.html.haml within layouts/application (21.1ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 476ms (Views: 361.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/movies/7/reviews/new" for 127.0.0.1 at 2018-04-09 10:09:39 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"7"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (2.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 319ms (Views: 266.2ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/movies/7/reviews" for 127.0.0.1 at 2018-04-09 10:09:41 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Zwz1nE4qrhT0dXjX8c8yXAFBWQE+bbh1Wd8rjIDCoUkyYFeFia3JQGUm3hdKNUqhdHuh8tSW133QetmPdbnc1w==", "review"=>{"potatoes"=>"1"}, "commit"=>"Create Review", "movie_id"=>"7"}
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (2.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/movies/7
+Completed 302 Found in 351ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/movies/7" for 127.0.0.1 at 2018-04-09 10:09:42 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (43.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 694ms (Views: 570.4ms | ActiveRecord: 1.0ms)
+
+
+  [1m[36mReview Load (1.0ms)[0m  [1m[34mSELECT  "reviews".* FROM "reviews" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/movies/7" for 127.0.0.1 at 2018-04-09 10:11:06 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (4.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 549ms (Views: 425.7ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/movies/7/reviews/new" for 127.0.0.1 at 2018-04-09 10:11:11 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"7"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (8.0ms)
+Completed 200 OK in 403ms (Views: 280.9ms | ActiveRecord: 6.0ms)
+
+
+Started POST "/movies/7/reviews" for 127.0.0.1 at 2018-04-09 10:11:12 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ujz7/cUVOmEkEXIEeDszZt7PO8aw5LRtJiR9zqURGlIHUFnkApJdNbVC1MTDwUubq/XDNVof22WvgY/NUGpnzA==", "review"=>{"potatoes"=>"1"}, "commit"=>"Create Review", "movie_id"=>"7"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/movies/7
+Completed 302 Found in 108ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/movies/7" for 127.0.0.1 at 2018-04-09 10:11:12 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (11.5ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 510ms (Views: 405.7ms | ActiveRecord: 1.5ms)
+
+
+  [1m[36mReview Load (1.0ms)[0m  [1m[34mSELECT  "reviews".* FROM "reviews" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (52.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (43.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateMovies (20180213172417)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE TABLE "movies" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "rating" varchar, "description" text, "release_date" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180213172417"]]
+  [1m[35m (56.2ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateUsers (20180316002707)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "provider" varchar, "uid" varchar, "name" varchar, "oauth_token" varchar, "oauth_expires_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180316002707"]]
+  [1m[35m (79.2ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateReviews (20180408232812)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE TABLE "reviews" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "potatoes" integer, "comments" varchar, "movie_id" integer, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, CONSTRAINT "fk_rails_6ad75a4852"
+FOREIGN KEY ("movie_id")
+  REFERENCES "movies" ("id")
+, CONSTRAINT "fk_rails_74a66bd6c5"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCREATE  INDEX "index_reviews_on_movie_id" ON "reviews" ("movie_id")[0m
+  [1m[35m (0.0ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_reviews_on_movie_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_reviews_on_movie_id' AND type='index'
+[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE  INDEX "index_reviews_on_user_id" ON "reviews" ("user_id")[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180408232812"]]
+  [1m[35m (47.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-04-09 17:17:16.892750"], ["updated_at", "2018-04-09 17:17:16.892750"]]
+  [1m[35m (51.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_reviews_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_reviews_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.5ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_reviews_on_movie_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_reviews_on_movie_id' AND type='index'
+[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (5.0ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Aladdin"], ["rating", "G"], ["release_date", "1992-11-25 00:00:00"], ["created_at", "2018-04-09 17:17:31.134302"], ["updated_at", "2018-04-09 17:17:31.134302"]]
+  [1m[35m (27.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "When Harry Met Sally"], ["rating", "R"], ["release_date", "1989-07-21 00:00:00"], ["created_at", "2018-04-09 17:17:31.180162"], ["updated_at", "2018-04-09 17:17:31.180162"]]
+  [1m[35m (27.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "The Help"], ["rating", "PG-13"], ["release_date", "2011-08-10 00:00:00"], ["created_at", "2018-04-09 17:17:31.224297"], ["updated_at", "2018-04-09 17:17:31.224297"]]
+  [1m[35m (66.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "movies" ("title", "rating", "release_date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Raiders Of The Lost Ark"], ["rating", "PG"], ["release_date", "1981-06-12 00:00:00"], ["created_at", "2018-04-09 17:17:31.299513"], ["updated_at", "2018-04-09 17:17:31.299513"]]
+  [1m[35m (44.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/movies/7" for 127.0.0.1 at 2018-04-09 10:18:09 -0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+Completed 404 Not Found in 79ms (ActiveRecord: 3.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Movie with 'id'=7):
+  
+app/controllers/movies_controller.rb:8:in `show'
+Started GET "/" for 127.0.0.1 at 2018-04-09 10:18:32 -0700
+Started GET "/movies" for 127.0.0.1 at 2018-04-09 10:18:32 -0700
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (84.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 1829ms (ActiveRecord: 5.0ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=1):
+  
+app/controllers/application_controller.rb:6:in `current_user'
+app/views/layouts/application.html.haml:15:in `_app_views_layouts_application_html_haml__1225951993_63284300'
+Started GET "/movies" for 127.0.0.1 at 2018-04-09 10:20:54 -0700
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (95.3ms)
+Completed 200 OK in 553ms (Views: 472.2ms | ActiveRecord: 27.6ms)
+
+
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2018-04-09 10:21:12 -0700
+(google_oauth2) Request phase initiated.
+Started GET "/auth/google_oauth2" for 127.0.0.1 at 2018-04-09 10:21:13 -0700
+(google_oauth2) Request phase initiated.
+Started GET "/auth/google_oauth2/callback?state=4555a27642efb5e91f7178669bd364413b6e0ec74b3d0ae7&code=4/AABc0TTwkLIs4hRLAtOaKWcqZRrS6WxkjkbozWe671PxO8an5-o3DtQJ94AJTnzgsxV0AUmzbB_la_DM0AphRYY" for 127.0.0.1 at 2018-04-09 10:21:25 -0700
+(google_oauth2) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"state"=>"4555a27642efb5e91f7178669bd364413b6e0ec74b3d0ae7", "code"=>"4/AABc0TTwkLIs4hRLAtOaKWcqZRrS6WxkjkbozWe671PxO8an5-o3DtQJ94AJTnzgsxV0AUmzbB_la_DM0AphRYY", "provider"=>"google_oauth2"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."provider" = ? AND "users"."uid" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["provider", "google_oauth2"], ["uid", "115101668900867421896"], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (29.1ms)[0m  [1m[32mINSERT INTO "users" ("provider", "uid", "name", "oauth_token", "oauth_expires_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["provider", "google_oauth2"], ["uid", "115101668900867421896"], ["name", "Genesis Hernandez"], ["oauth_token", "ya29.Gl2YBcFGhWBQ00EEJL_zbI3gi1qEUBBlEqcJHA2otHGrbZ5E4xe0yoCn4QleAYKI7VXwp_46fdaiUeCITWbdp2_4x0A0ouGtEMe9x0KtQFBXah-QwPv1V78zjdk0_MQ"], ["oauth_expires_at", "2018-04-09 18:21:25"], ["created_at", "2018-04-09 17:21:27.221618"], ["updated_at", "2018-04-09 17:21:27.221618"]]
+  [1m[35m (103.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 484ms (ActiveRecord: 135.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-09 10:21:27 -0700
+Started GET "/movies" for 127.0.0.1 at 2018-04-09 10:21:27 -0700
+Processing by MoviesController#index as HTML
+  Rendering movies/index.html.haml within layouts/application
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.haml within layouts/application (104.4ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 828ms (Views: 639.3ms | ActiveRecord: 21.1ms)
+
+
+Started GET "/movies/1" for 127.0.0.1 at 2018-04-09 10:21:39 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (6.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 454ms (Views: 332.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/movies/1/reviews/new" for 127.0.0.1 at 2018-04-09 10:21:42 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"1"}
+  [1m[36mUser Load (34.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 611ms (Views: 292.9ms | ActiveRecord: 37.1ms)
+
+
+Started POST "/movies/1/reviews" for 127.0.0.1 at 2018-04-09 10:21:44 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"z818C18skS17oXkpTJusBeUuJoTEN7Pv431bPfdxUUEktz/xV3QhU0J6bWd3mr49L/iv2P/W6B/pghUlrZEEFw==", "review"=>{"potatoes"=>"1"}, "commit"=>"Create Review", "movie_id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/movies/1
+Completed 302 Found in 418ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/movies/1" for 127.0.0.1 at 2018-04-09 10:21:44 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (7.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 424ms (Views: 322.5ms | ActiveRecord: 1.5ms)
+
+
+  [1m[36mReview Load (6.2ms)[0m  [1m[34mSELECT  "reviews".* FROM "reviews" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/movies/1" for 127.0.0.1 at 2018-04-09 10:25:07 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (2.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (5.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 688ms (Views: 565.8ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/movies/1/reviews/new" for 127.0.0.1 at 2018-04-09 10:25:12 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (2.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (6.5ms)
+Completed 200 OK in 584ms (Views: 368.5ms | ActiveRecord: 12.0ms)
+
+
+Started POST "/movies/1/reviews" for 127.0.0.1 at 2018-04-09 10:25:14 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aUcWUexUU8o5Limey/7IdxdcXwzf/b3e+S8omomosbeCPVWr5AzjtAD1PdDw/9pP3YrWUOQc5i7z0GaC00jk4Q==", "review"=>{"potatoes"=>"1"}, "commit"=>"Create Review", "movie_id"=>"1"}
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/movies/1
+Completed 302 Found in 461ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/movies/1" for 127.0.0.1 at 2018-04-09 10:25:14 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (12.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 854ms (Views: 664.0ms | ActiveRecord: 1.0ms)
+
+
+  [1m[36mReview Load (1.0ms)[0m  [1m[34mSELECT  "reviews".* FROM "reviews" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/movies/1/reviews/new" for 127.0.0.1 at 2018-04-09 10:30:08 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (20.6ms)
+Completed 200 OK in 1179ms (Views: 881.7ms | ActiveRecord: 12.0ms)
+
+
+Started POST "/movies/1/reviews" for 127.0.0.1 at 2018-04-09 10:30:13 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8DE0lViJMEqW3y3x9vgNU2bUsKk6OE0Wj6PJSzXvzHMbS3dvUNGANK8EOb/N+R9rrAI59QHZFuaFXIdTbw+ZJQ==", "review"=>{"potatoes"=>"1"}, "commit"=>"Create Review", "movie_id"=>"1"}
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mReview Load (1.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[36mReview Load (1.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" = ?[0m  [["movie_id", 1]]
+Redirected to http://localhost:3000/movies/1
+Completed 302 Found in 231ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/movies/1" for 127.0.0.1 at 2018-04-09 10:30:13 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (27.6ms)
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 571ms (Views: 465.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/movies/1/reviews/new" for 127.0.0.1 at 2018-04-09 10:31:27 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (2.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (4.0ms)
+Completed 200 OK in 672ms (Views: 415.9ms | ActiveRecord: 10.0ms)
+
+
+Started POST "/movies/1/reviews" for 127.0.0.1 at 2018-04-09 10:31:30 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pxu/Y0ttFFQLDdlIgvrX0VDi+BHZkVv/biCr1jwiordMYfyZQzWkKjLWzQa5+8XpmjRxTeJwAA9k3+XOZsL34Q==", "review"=>{"potatoes"=>"1"}, "commit"=>"Create Review", "movie_id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mReview Load (2.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[36mReview Load (1.0ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" = ?[0m  [["movie_id", 1]]
+Redirected to http://localhost:3000/movies/1
+Completed 302 Found in 168ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/movies/1" for 127.0.0.1 at 2018-04-09 10:31:30 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (5.5ms)
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 483ms (Views: 370.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/movies/1/reviews/new" for 127.0.0.1 at 2018-04-09 10:34:43 -0700
+Processing by ReviewsController#new as HTML
+  Parameters: {"movie_id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (1.0ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering reviews/new.html.haml within layouts/application
+  Rendered reviews/new.html.haml within layouts/application (6.0ms)
+Completed 200 OK in 437ms (Views: 278.1ms | ActiveRecord: 20.1ms)
+
+
+Started POST "/movies/1/reviews" for 127.0.0.1 at 2018-04-09 10:34:45 -0700
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0umXuFjYhAOuaOIYo7w5l7eho4lSe+fFozsX0xtBxYU5k9RCUIA0fZez9laYvSuvfXcq1WmavDWpxFnLQaGQ0w==", "review"=>{"potatoes"=>"1"}, "commit"=>"Create Review", "movie_id"=>"1"}
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mReview Load (1.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[36mReview Load (1.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" = ?[0m  [["movie_id", 1]]
+Redirected to http://localhost:3000/movies/1
+Completed 302 Found in 333ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/movies/1" for 127.0.0.1 at 2018-04-09 10:34:46 -0700
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mMovie Load (0.5ms)[0m  [1m[34mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering movies/show.html.haml within layouts/application
+  Rendered movies/show.html.haml within layouts/application (15.0ms)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 517ms (Views: 406.6ms | ActiveRecord: 1.0ms)
+
+
+  [1m[36mReview Load (1.0ms)[0m  [1m[34mSELECT  "reviews".* FROM "reviews" LIMIT ?[0m  [["LIMIT", 11]]
