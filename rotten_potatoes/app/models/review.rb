@@ -1,4 +1,4 @@
 class Review < ApplicationRecord
-  belongs_to :movies
-  belongs_to :user
+  belongs_to :movies, optional: true
+  belongs_to :user, optional: true
 end
